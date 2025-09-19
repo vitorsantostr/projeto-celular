@@ -9,20 +9,24 @@ body, html{
     width: 100vw;
     height: 100h;
 }
+body{
+      background: url(../projeto-celular/imagens/fundo-madeira.jpg) no-repeat top center;
+      background-size: cover;
+      background-attachment: fixed;
+}
 main{
     position: relative;
     height: 100vh;
     width: 100vw;
-    background: url(../projeto-celular/imagens/fundo-madeira.jpg) no-repeat center;
 }
 section#telefone{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    min-width: 330px;
-    height: 100vh;
+    width: 311px;
+    height: 627px;
     background: url(../projeto-celular/imagens/frame-iphone.png) no-repeat center;
     background-size: cover;
-    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    box-shadow: 1 0 20px rgba(0,0,0,0.5);
 }
