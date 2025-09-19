@@ -28,7 +28,7 @@ section#telefone{
     height: 627px;
     background: url(../projeto-celular/imagens/frame-iphone.png) no-repeat center;
     background-size: cover;
-    box-shadow: 1 0 20px rgba(0,0,0,0.5);
+    box-shadow: 1 0 20px rgba(0, 0, 0, 0.274);
 }
 iframe{
     position:absolute;
@@ -37,5 +37,21 @@ iframe{
     transform: translate(-50%, -50%);
     width:270px;
     height:500px;
-    overflow-x: hidden;
+}
+
+section#menu{
+    text-align:right;
+}
+section#menu img{
+    width:60px;
+    height:60px;
+    margin:15px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.137); 
+    box-sizing: border-box;/* Inclui a borda na largura e altura total do elemento */
+}
+img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.11);
+    transform:translate(-4px, -4px);
+    transition: transform .5s;
 }
