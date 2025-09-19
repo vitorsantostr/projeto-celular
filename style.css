@@ -30,13 +30,14 @@ section#telefone{
     background-size: cover;
     box-shadow: 1 0 20px rgba(0, 0, 0, 0.274);
 }
-iframe{
-    position:absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width:270px;
-    height:500px;
+iframe#tela{
+    position: absolute;
+    top: 69px;
+    left: 21px;
+    width: 271px;
+    height: 484px;
+    border-radius: 2px;
+    border: transparent;
 }
 
 section#menu{

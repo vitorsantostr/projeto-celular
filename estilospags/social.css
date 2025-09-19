@@ -8,6 +8,9 @@
         width: 0px; 
         height: 0px;
     }
+    body{
+        background-color: lightblue;
+    }
     img {
         width: 100vw;
 
@@ -15,10 +18,10 @@
     a{
         padding: 20px;
         display: block;
-        color: red;
+        color:white;
         background-color:lightblue;
         width: 100vw;
         text-align: center;
         text-decoration: none;
-        font-weight:bold;
+        font-weight:bolder;
     }
