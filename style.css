@@ -11,8 +11,8 @@ body, html{
 }
 body{
       background: url(../projeto-celular/imagens/fundo-madeira.jpg) no-repeat top center;
-      background-size: cover;
-      background-attachment: fixed;
+      background-size: cover; /* Faz a imagem cobrir todo o fundo */
+      background-attachment: fixed;/* Mantém a imagem fixa ao rolar a página */
 }
 main{
     position: relative;
@@ -23,7 +23,7 @@ section#telefone{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);/* Centraliza o elemento */
     width: 311px;
     height: 627px;
     background: url(../projeto-celular/imagens/frame-iphone.png) no-repeat center;
